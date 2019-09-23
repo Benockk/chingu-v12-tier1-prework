@@ -1,0 +1,153 @@
+body{
+    margin: 0%;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    
+    display: grid;
+    background-color: #40596B;
+    justify-items: center;
+}
+header.sticky{
+    position: sticky;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 1rem;
+    color :#FFD05B
+}
+
+li a{
+    text-decoration:none;
+    color :#FFD05B
+}
+
+#first {
+    display: grid;
+    grid-template-columns: [line-1]60% [line-2]auto;
+    background-color: #55C0EC;
+    /* justify-items: center; */
+    text-align: center;
+    padding: 2em;
+}
+#first h1{
+    font-size: 5em;
+}
+
+.sub-text{
+    color: white;
+    font-size: 2em;
+}
+#but {
+    font-size: large;
+}
+
+#eye {
+    grid-column-start: [line-2];
+    align-self: center;
+    background-color: #FFD05B;
+    border-radius: 50%;
+    padding: 2em;
+}
+#first>div{
+    justify-self: center;
+}
+.slack-link{
+    padding: 0.5em;
+    font-size: 1.5em;
+    width: 15em;
+    height: 3em
+}
+#hash{
+    padding-right: 1em;
+    margin-bottom: -0.4em
+}
+#but{
+    display: inline;
+    /* padding-bottom: 0.1em; */
+}
+
+/*---------------NAV AREA--------------*/
+
+#second{
+    display: grid;
+    justify-items:center;
+    padding: 2em 0 2em 0;
+}
+#second h2{
+    text-align: center;
+    font-size: 2em;
+}
+#second p{
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+#paragraph{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 3em;
+}
+/* .p1{
+    margin-left: 3em;
+} */
+
+#third{
+    display: grid;
+    background-color: #90DDAA;
+    text-align: center;
+    /* justify-items: center; */
+    padding: 2em 2em 3.2em 2em;
+}
+#third h2{
+    
+    font-size: 2em;
+}
+#figure{
+    display: grid;
+    grid-template-columns: repeat(3, auto)
+}
+
+figure{
+    background-color: #40596B;
+    height: 28em;
+    width: 20em
+}
+
+
+figcaption{
+    background-color: white;
+}
+
+#fourth{
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+#fourth h2{
+    /* text-align: center; */
+    font-size: 2.2em;
+}
+#fourth p{
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+footer{
+    grid-area: row-6/line-start / row-6/line-end;
+    background-color: #40596B;
+    text-align: center;
+    color: rgb(223, 213, 213);
+    padding: 0.05em 0 1em 0;
+}
+footer button{
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    /* opacity: 0; */
+}
+#up{
+    margin-bottom: -0.4em;
+}
+
