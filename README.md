@@ -1,5 +1,5 @@
 # chingu-v12-tier1-prework
-##clone TickyBot
+## clone TickyBot
 
 This project is a clone of the landing page for a slack bot(TickyBot) made by the *"chingu bears 19 team".* you can find out about chingu here"https://chingu.io".
 
